@@ -1,0 +1,45 @@
+
+.containerb{
+ 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.image{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 30%;
+
+}
+.pokeball{
+    width: 10%;
+    
+}
+
+.botonA{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10vw;
+    height: 4vw;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: rgb(66, 66, 66);
+    font-weight: bold;
+    color: white;
+   
+    
+    
+}
+.botonA:hover{
+    background:rgb(139, 139, 139);
+    color: rgb(0, 0, 0);
+}
+
+
+
+

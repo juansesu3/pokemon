@@ -1,0 +1,43 @@
+.card{
+    box-shadow: 1px 1px 5px gray;
+    margin: 5px;
+   
+}
+.cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.cards-item{
+    display: flex;
+    padding: 1rem;
+}
+.card-detail{
+    box-shadow: 1px 1px 5px gray;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 350px;
+    height: 100%;
+   
+}
+@media (max-width: 350px) { 
+     .card-detail{
+    width: 50% ;
+
+}}
+   
+
+    
+
+
+.image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+  
+}
